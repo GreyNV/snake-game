@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Arcade</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Snake Arcade</h1>
+      <p class="tagline">Collect food, earn points, and style your snake!</p>
+    </header>
+    <main class="app-main">
+      <section class="game-panel" aria-label="Snake game">
+        <div class="scoreboard">
+          <div class="score">
+            <span class="label">Session Score</span>
+            <span id="session-score" class="value">0</span>
+          </div>
+          <div class="score">
+            <span class="label">Total Points</span>
+            <span id="total-points" class="value">0</span>
+          </div>
+        </div>
+        <canvas id="game-board" width="400" height="400" role="img" aria-label="Snake game board"></canvas>
+        <div class="controls">
+          <button id="start-btn" type="button">Start</button>
+          <button id="pause-btn" type="button" class="secondary">Pause</button>
+          <button id="reset-btn" type="button" class="secondary">Reset</button>
+        </div>
+        <p class="status-message" id="status-message" aria-live="polite">Press Start to begin.</p>
+      </section>
+      <aside class="shop" aria-label="Snake color shop">
+        <h2>Color Shop</h2>
+        <p class="shop-description">
+          Your total points carry across games. Buy new colors to personalize your snake.
+        </p>
+        <ul id="color-list" class="color-list"></ul>
+      </aside>
+    </main>
+    <footer class="app-footer">
+      Use the arrow keys or WASD to change direction. Avoid hitting the walls or yourself!
+    </footer>
+  </div>
+</body>
+</html>

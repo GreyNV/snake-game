@@ -1,1 +1,20 @@
+# Snake Arcade
 
+A modern take on the classic Snake game built with HTML, CSS, and JavaScript. Collect food to grow your snake, bank points across games, and spend them on custom color themes.
+
+## Features
+
+- Smooth 2D canvas gameplay with responsive keyboard controls (Arrow keys or WASD).
+- Randomly spawning food that increases the snake's length and session score.
+- Persistent point system stored in your browser so progress is saved between sessions.
+- In-game color shop where you can unlock and equip new snake skins with your earned points.
+- Pause and reset controls plus helpful status messaging for game state feedback.
+
+## Getting Started
+
+1. Open `index.html` in your favorite browser.
+2. Press **Start** (or use the arrow keys) to begin the game.
+3. Steer the snake to collect food, avoid walls and your own tail, and rack up points.
+4. Visit the **Color Shop** to unlock new looks for your snake using the points you have saved.
+
+Have fun and see how stylish and long you can make your snake!
